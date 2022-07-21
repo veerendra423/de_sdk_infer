@@ -1,0 +1,160 @@
+Tue May 31 15:58:24 2022 ## Trace: deie_object detection inference application!
+Tue May 31 15:58:24 2022 ## Debug: deie_object detection inference application!
+Tue May 31 15:58:24 2022 ## Info: deie_object detection inference application!
+Tue May 31 15:58:24 2022 ## Warn: warning message!
+Tue May 31 15:58:24 2022 ## Error: deie_object detection inference application!
+Tue May 31 15:58:24 2022 ## Fatal: deie_object detection inference application!
+Tue May 31 15:58:24 2022 ## Info: unet Constructor 
+
+Tue May 31 15:58:24 2022 ## Info: set model info
+
+Tue May 31 15:58:24 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:24 2022 ## Info: intel inference function
+
+Tue May 31 15:58:25 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:25 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:25 2022 ## Info: intel inference function
+
+Tue May 31 15:58:25 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:25 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:25 2022 ## Info: intel inference function
+
+Tue May 31 15:58:25 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:25 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:25 2022 ## Info: intel inference function
+
+Tue May 31 15:58:25 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:25 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:25 2022 ## Info: intel inference function
+
+Tue May 31 15:58:26 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:26 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:26 2022 ## Info: intel inference function
+
+Tue May 31 15:58:26 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:26 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:26 2022 ## Info: intel inference function
+
+Tue May 31 15:58:26 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:26 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:26 2022 ## Info: intel inference function
+
+Tue May 31 15:58:26 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:26 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:26 2022 ## Info: intel inference function
+
+Tue May 31 15:58:26 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:27 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:27 2022 ## Info: intel inference function
+
+Tue May 31 15:58:27 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:27 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:27 2022 ## Info: intel inference function
+
+Tue May 31 15:58:27 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:27 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:27 2022 ## Info: intel inference function
+
+Tue May 31 15:58:27 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:27 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:27 2022 ## Info: intel inference function
+
+Tue May 31 15:58:27 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:27 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:27 2022 ## Info: intel inference function
+
+Tue May 31 15:58:28 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:28 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:28 2022 ## Info: intel inference function
+
+Tue May 31 15:58:28 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:28 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:28 2022 ## Info: intel inference function
+
+Tue May 31 15:58:28 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:28 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:28 2022 ## Info: intel inference function
+
+Tue May 31 15:58:28 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:28 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:28 2022 ## Info: intel inference function
+
+Tue May 31 15:58:29 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:29 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:29 2022 ## Info: intel inference function
+
+Tue May 31 15:58:29 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:29 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:29 2022 ## Info: intel inference function
+
+Tue May 31 15:58:29 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:29 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:29 2022 ## Info: intel inference function
+
+Tue May 31 15:58:29 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:29 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:29 2022 ## Info: intel inference function
+
+Tue May 31 15:58:29 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:29 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:29 2022 ## Info: intel inference function
+
+Tue May 31 15:58:30 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:30 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:30 2022 ## Info: intel inference function
+
+Tue May 31 15:58:30 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:30 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:30 2022 ## Info: intel inference function
+
+Tue May 31 15:58:30 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:30 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:30 2022 ## Info: intel inference function
+
+Tue May 31 15:58:30 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:30 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:30 2022 ## Info: intel inference function
+
+Tue May 31 15:58:31 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:31 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:31 2022 ## Info: intel inference function
+
+Tue May 31 15:58:31 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:31 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:31 2022 ## Info: intel inference function
+
+Tue May 31 15:58:31 2022 ## Info: intel post processing at yolov3
+
+Tue May 31 15:58:31 2022 ## Info: run inference at yolov3 info
+Tue May 31 15:58:31 2022 ## Info: intel inference function
+
+Tue May 31 15:58:31 2022 ## Info: intel post processing at yolov3
+

@@ -1,0 +1,68 @@
+[objective]
+process_type=evaluation
+
+[cv_task]
+cv_task_type = segmentation
+
+
+[target_details]
+target_ID = 5
+#target_platform = xilinx_kv260
+target_platform = intel
+#target_platform = ambarella_cv25
+target_device_type = CPU
+target_chip = intel NUC
+target_chip_version = 11th Gen Intel Core i5-1135G7
+target_SDK_version = "openvino v.2022"
+
+[target_connection]
+protocol = ssh
+user_name = root
+password = admin
+server_host = 192.168.10.126
+server_port = NULL
+
+[model_details]
+model_architecture = unet
+no_of_inputs=1
+input_tensors = model_input
+input_dims=1,3,416,416
+no_of_outputs= 5
+output_dims=4
+no_of_classes= 4
+user_data= yes
+data_type= "string / anchors"
+data=[10,13,20]
+model_path="/home/veerendra/sdk/payload_intel-segmentation/payload_intel-segmentation/model/saved_model.xml"
+model_file="saved_model.xml"
+output_tensors ="OutputLayer_0,OutputLayer_1,OutputLayer_2"
+
+[test_input_data]
+input_source_type ="camera_stream(or)images(or)file_video(or)rtsp_live_stream"
+camera_id = 0
+test_data_path = "/home/veerendra/sdk/payload_intel-segmentation/payload_intel-segmentation/media"
+
+image_extension = ".png"
+file_video_extension = ".mp4"
+test_data_items = 1
+
+[model_preprocessing]
+input_mean=NULL
+input_scale=NULL
+image_format=RGB
+image_preprocessing=True
+preprocessing_type=custom/inline
+preprocessing_data=test
+
+[model_postprocessing]
+nms_threshold= 0.30
+confidence_threshold= 0.8
+
+
+[Results_Accumulation]
+results_size=single
+result_format=json
+
+[Debug_level]
+level=2     
+#trace=0,debug=1,info=2,warning=3,error=4,fatal=5
