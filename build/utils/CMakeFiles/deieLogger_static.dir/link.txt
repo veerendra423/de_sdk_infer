@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../libdeieLogger_static.a  CMakeFiles/deieLoggerLib.dir/deie_logger.cpp.o
+/usr/bin/ranlib ../libdeieLogger_static.a

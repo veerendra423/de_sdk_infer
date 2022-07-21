@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC   -shared -Wl,-soname,libdeieLogger.so -o ../libdeieLogger.so CMakeFiles/deieLoggerLib.dir/deie_logger.cpp.o 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtargetLib.a  CMakeFiles/targetLib.dir/src/target.cpp.o
+/usr/bin/ranlib libtargetLib.a

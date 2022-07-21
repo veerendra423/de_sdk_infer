@@ -1,0 +1,2 @@
+/usr/bin/ar qc libunetLib.a  CMakeFiles/unetLib.dir/src/unet.cpp.o
+/usr/bin/ranlib libunetLib.a

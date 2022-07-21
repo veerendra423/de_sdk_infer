@@ -1,0 +1,2 @@
+/usr/bin/ar qc libintelLib.a  CMakeFiles/intelLib.dir/src/intel.cpp.o
+/usr/bin/ranlib libintelLib.a

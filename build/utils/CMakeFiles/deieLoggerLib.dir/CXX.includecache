@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/veerendra/sdk/de_sdk/utils/deie_logger.cpp
+deie_logger.hpp
+/home/veerendra/sdk/de_sdk/utils/deie_logger.hpp
+chrono
+-
+ctime
+-
+fstream
+-
+iostream
+-
+map
+-
+mutex
+-
+stdexcept
+-
+QDebug
+-
+
+/home/veerendra/sdk/de_sdk/utils/deie_logger.hpp
+cstdio
+-
+memory
+-
+sstream
+-
+

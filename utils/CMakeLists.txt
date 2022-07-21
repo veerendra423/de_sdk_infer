@@ -1,0 +1,26 @@
+set(SRC deie_logger.cpp)
+set(HDR deie_logger.hpp)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+add_library(deieLoggerLib OBJECT ${SRC})
+set_property(TARGET deieLoggerLib PROPERTY POSITION_INDEPENDENT_CODE 1)
+
+set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
+
+add_library(${LIBRARY_NAME} SHARED $<TARGET_OBJECTS:deieLoggerLib>)
+set_target_properties(${LIBRARY_NAME} PROPERTIES PUBLIC_HEADER ${HDR})
+install(TARGETS ${LIBRARY_NAME}
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+    PUBLIC_HEADER DESTINATION include
+)
+
+set(STATIC_LIBRARY_NAME ${LIBRARY_NAME}_static)
+add_library(${STATIC_LIBRARY_NAME} STATIC $<TARGET_OBJECTS:deieLoggerLib>)
+set_target_properties(${STATIC_LIBRARY_NAME} PROPERTIES PUBLIC_HEADER ${HDR})
+install(TARGETS ${STATIC_LIBRARY_NAME}
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+    PUBLIC_HEADER DESTINATION include
+)
